@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS">
+      <Configuration>Release</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows">
+      <Configuration>Release</Configuration>
+      <Platform>Windows</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|iOS">
+      <Configuration>Distribution</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>598d5821-0587-41f7-bbd4-e7b6adbbb0c2</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="bower_components\backbone.localStorage\backbone.localStorage.js" />
+    <Content Include="bower_components\backbone\backbone.js" />
+    <Content Include="bower_components\todomvc-common\base.css" />
+    <Content Include="bower_components\todomvc-common\base.js" />
+    <Content Include="bower_components\todomvc-common\bg.png" />
+    <Content Include="bower_components\underscore\underscore.js" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.map" />
+    <TypeScriptCompile Include="$(MsBuildThisFileDirectory)ts\index.ts" />
+    <Content Include="css\index.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\app.js" />
+    <Content Include="js\collections\todos.js" />
+    <Content Include="js\models\todo.js" />
+    <Content Include="js\routers\router.js" />
+    <Content Include="js\views\app-view.js" />
+    <Content Include="js\views\todo-view.js" />
+    <Content Include="readme.md" />
+    <Content Include="res\cert\android\ant.properties" />
+    <Content Include="res\icons\android\icon-36-ldpi.png" />
+    <Content Include="res\icons\android\icon-48-mdpi.png" />
+    <Content Include="res\icons\android\icon-72-hdpi.png" />
+    <Content Include="res\icons\android\icon-96-xhdpi.png" />
+    <Content Include="res\icons\windows8\logo.png" />
+    <Content Include="res\icons\windows8\smalllogo.png" />
+    <Content Include="res\icons\windows8\storelogo.png" />
+    <Content Include="res\icons\wp8\icon-173-tile.png" />
+    <Content Include="res\icons\wp8\icon-62-tile.png" />
+    <Content Include="res\screens\android\screen-hdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-hdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-ldpi-landscape.png" />
+    <Content Include="res\screens\android\screen-ldpi-portrait.png" />
+    <Content Include="res\screens\android\screen-mdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-mdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-xhdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-xhdpi-portrait.png" />
+    <Content Include="res\screens\windows8\splashscreen.png" />
+    <Content Include="res\screens\wp8\screen-portrait.jpg" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Distribution'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\Microsoft.TypeScript.cordova.targets" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\PhoneLaunch.targets" Condition="$(Platform) == 'Windows Phone'" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\AndroidLaunch.targets" Condition="$(Platform) == 'Android'" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\iOSLaunch.targets" Condition="$(Platform) == 'iOS'" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\WindowsLaunch.targets" Condition="$(Platform) == 'Windows'" />
+  <Import Project="$(AppData)\npm\node_modules\vs-cordova-targets\HtmlApps.targets" />
+  <PropertyGroup>
+    <ProjectUISubcaption>Html Cordova</ProjectUISubcaption>
+  </PropertyGroup>
+  <Target Name="EnsureBuildPrerequisites">
+    <!-- These errors will trigger if building from inside Visual Studio and requirements could not be determined -->
+    <Error Condition="$(HtmlAppsPropertiesEvaluated) == 'true' And $(NodeJsDir) == ''" Text="Path to NodeJs could not be determined. Please check that NodeJs has been installed." />
+    <Error Condition="$(HtmlAppsPropertiesEvaluated) == 'true' And $(HtmlAppsVsixDir) == ''" Text="Path to the Visual Studio Extension for Cross Platform Html Apps could not be determined. Please check that the extension has been installed." />
+    <!-- These errors will trigger if building from outside Visual Studio (e.g. command line) and environment variables have not been set -->
+    <Error Condition="$(HtmlAppsPropertiesEvaluated) == '' And $(NodeJsDir) == ''" Text="Path to NodeJs has not been specified. Please check that NodeJs has been installed and set the NodeJsDir environment variable before building." />
+    <Error Condition="$(HtmlAppsPropertiesEvaluated) == '' And $(HtmlAppsVsixDir) == ''" Text="Path to Visual Studio Extension for Cross Platform Html Apps has not been specified. Please install it and set the HtmlAppsVsixDir environment variable before building." />
+    <!-- Sanity check that things exist in the specified places. These are more likely to fail if building outside Visual Studio and the required environment variables have not been set, or set incorrectly. -->
+    <Error Condition="!Exists('$(NodeJsDir)') Or !Exists('$(NodeJsDir)\node.exe')" Text="The specified NodeJs directory $(NodeJsDir) either does not exist, or does not contain node.exe. Please check that NodeJs has been installed, and set the NodeJsDir variable to the correct directory." />
+    <Error Condition="!Exists('$(HtmlAppsVsixDir)') Or !Exists('$(HtmlAppsVsixDir)\packages\vs-cordova')" Text="The specified directory to the Visual Studio extension $(HtmlAppsVsixDir)\node.exe either does not exist, or does not contain a packages\vs-cordova sub-directory. Please check that the extension directory exists and set the HtmlAppsVsixDir variable to the correct directory." />
+    <!-- Installs (if necessary) the supporting Nodejs module -->
+    <Exec Command="&quot;$(HtmlAppsVsixDir)&quot;\packages\vs-cordova\install &quot;$(NodeJsDir)&quot; &quot;$(HtmlAppsVsixDir)&quot;\packages\vs-cordova" />
+  </Target>
+</Project>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30404.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BackboneToDoMvc", "BackboneToDoMvc\BackboneToDoMvc.jsproj", "{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows = Debug|Windows
+		Debug|Windows Phone = Debug|Windows Phone
+		Distribution|Android = Distribution|Android
+		Distribution|iOS = Distribution|iOS
+		Distribution|Windows = Distribution|Windows
+		Distribution|Windows Phone = Distribution|Windows Phone
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows = Release|Windows
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Android.ActiveCfg = Debug|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Android.Build.0 = Debug|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Android.Deploy.0 = Debug|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|iOS.ActiveCfg = Debug|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|iOS.Build.0 = Debug|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|iOS.Deploy.0 = Debug|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows.ActiveCfg = Debug|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows.Build.0 = Debug|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows.Deploy.0 = Debug|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|Android.ActiveCfg = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|iOS.ActiveCfg = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|iOS.Build.0 = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|iOS.Deploy.0 = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|Windows.ActiveCfg = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Distribution|Windows Phone.ActiveCfg = Distribution|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Android.ActiveCfg = Release|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Android.Build.0 = Release|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Android.Deploy.0 = Release|Android
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|iOS.ActiveCfg = Release|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|iOS.Build.0 = Release|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|iOS.Deploy.0 = Release|iOS
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows.ActiveCfg = Release|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows.Build.0 = Release|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows.Deploy.0 = Release|Windows
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{598D5821-0587-41F7-BBD4-E7B6ADBBB0C2}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
